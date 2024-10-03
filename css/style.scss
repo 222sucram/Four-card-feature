@@ -1,6 +1,39 @@
 @import './variables';
 
-h1 {
-    color: $red;
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    color: $darkgray;
+}
+
+main{
+    min-height: 100vh;
+    background-color: $lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    h1 {
+        font-size: 24px;
+        line-height: 1px;
+        display: inline-block;
+        span {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
 }
 
